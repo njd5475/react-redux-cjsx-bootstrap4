@@ -1,4 +1,4 @@
-# Brunch + Redux + React + Babel/ES6
+# Brunch + Redux + React + Babel/ES6 + CJSX + BOOTSTRAP4 + JQUERY + SASS
 
 This is a modern JS skeleton with React and Redux for [Brunch](http://brunch.io).
 
@@ -19,3 +19,5 @@ Clone this repo manually or use `brunch new dir -s brunch/with-redux`
     * `public/` dir is fully auto-generated and served by HTTP server. Write your code in `app/` dir.
     * Place static files you want to be copied from `app/assets/` to `public/`.
     * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
+# react-redux-cjsx-bootstrap4
+Brunch basic setup with react redux and bootstrap4 using cjsx
