@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
 const BaseCounter = ({ count, onPlusClick, onMinusClick }) => (
@@ -6,9 +7,9 @@ const BaseCounter = ({ count, onPlusClick, onMinusClick }) => (
     <div className="col-md-12">
       <h2>Redux Counter:</h2>
       <p>
-        <button onClick={onMinusClick}>-</button>
+        <button className="btn btn-primary" onClick={onMinusClick}>-</button>
         {count}
-        <button onClick={onPlusClick}>+</button>
+        <button className="btn btn-secondary" onClick={onPlusClick}>+</button>
       </p>
     </div>
   </div>

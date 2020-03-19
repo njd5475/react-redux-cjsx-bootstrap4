@@ -6,6 +6,9 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="container">
+        <div className="alert alert-primary">
+          Alerts appear!
+        </div>
         <div className="row">
           <h1>Welcome!</h1>
         </div>
